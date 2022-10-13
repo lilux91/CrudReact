@@ -14,13 +14,14 @@
     min-height: 100vh;
     background-color: #0002;
     /*Difumina el fondo*/
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2.5px);
     position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 20px;
+    padding-left: 20px;
     z-index: 1;
 }
 .disable_form{
@@ -29,7 +30,8 @@
 
 
 .App_container-title{
-    /*width: 100%;*/
+    /*top:0;*/
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

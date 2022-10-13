@@ -1,10 +1,11 @@
 .user{
+    position: relative;
     /*background-color: blueviolet;*/
     background-color: white;
     padding: 20px;
     border: 1px solid #ccc9;
     border: 8px;
-    width: 100px;
+    width: 100%;
     max-width: 400px;
     transition: box-shadow 200ms ease;
 }
