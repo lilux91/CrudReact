@@ -80,7 +80,7 @@ function App() {
       </div>
       <div className={`form-container ${formIsClose && "disable_form"}`}>
         <FormUsers
-          createNewUSer={createNewUSer}
+          CreateNewUser={createNewUSer}
           updateInfo={updateInfo}
           updateUserById={updateUserById}
           setUpdateInfo={setUpdateInfo}
@@ -92,7 +92,7 @@ function App() {
           <UserCard
             key={user.id}
             user={user}
-            deleteUserByID={deleteUserById}
+            deleteUserById={deleteUserById}
             setUpdateInfo={setUpdateInfo}
             setFormIsClose={setFormIsClose}
           />
