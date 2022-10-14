@@ -10,7 +10,7 @@ import './styles/formUsers.css'
         birthday:''
 }
 
-const FormUsers = ({createNewUser, updateInfo, updateUserById, setUpdateInfo, setFormIsClose}) => {
+const FormUsers = ({CreateNewUser, updateInfo, updateUserById, setUpdateInfo, setFormIsClose}) => {
 
     const {handleSubmit, reset, register} = useForm()
 
@@ -30,7 +30,7 @@ const FormUsers = ({createNewUser, updateInfo, updateUserById, setUpdateInfo, se
             setUpdateInfo()
         } else {
             //Create
-            createNewUser(data)
+            CreateNewUser(data)
         }
         setFormIsClose(true)
         reset(defaultValues)
