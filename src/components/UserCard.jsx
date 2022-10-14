@@ -4,6 +4,7 @@ import './styles/userCard.css'
 const UserCard = ({ user, deleteUserById, setUpdateInfo, setformIsClose }) => {
   const handleEdit = () => {
     setUpdateInfo(user);
+    //setFormIsClose(false)?
     setformIsClose(false)
   };
 

@@ -14,7 +14,7 @@ const FormUsers = ({createNewUser, updateInfo, updateUserById, setUpdateInfo, se
 
     const {handleSubmit, reset, register} = useForm()
 
-    //const formData = useRef()
+    const formData = useRef()
 
     useEffect(()  => {
         if(updateInfo){
